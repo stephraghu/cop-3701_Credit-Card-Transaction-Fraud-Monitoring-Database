@@ -32,3 +32,16 @@ This design demonstrates at least one example of each required item:
 2. If a Transaction is deleted, any associated `Fraud_Alert` (Weak Entity) is automatically deleted.
 3. Each Credit Card is tied to exactly one primary User.
 4. The anonymized features (V1-V28) from the Kaggle source are treated as transaction-level attributes for risk scoring.
+
+---
+## 5. Final Normalized Relational Schema (Part C)
+The following schema represents the translation of the E/R diagram into a relational model. All relations have been verified to be in Boyce-Codd Normal Form (BCNF).
+
+- **User** (**user_id**, first_name, last_name, email, phone_number)
+- **Identity_Profile** (**profile_id**, *user_id*, ssn_hash, last_verified)
+- **Credit_Card** (**card_number**, *user_id*, expiry_date, card_type, credit_limit)
+- **Merchant** (**merchant_id**, merchant_name, category, website)
+- **Transaction** (**transaction_id**, *card_number*, *merchant_id*, amount, timestamp, v1, v2, v3, class)
+- **Fraud_Alert** (**alert_id**, *transaction_id*, risk_score, investigation_status, created_at)
+
+*Note: **Bold** indicates Primary Keys; *Italics* indicate Foreign Keys.*
