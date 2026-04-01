@@ -1,4 +1,4 @@
-# Database Conceptual Design (Part B)
+# Database Conceptual Design
 
 ## 1. Entity-Relationship Diagram
 <img width="1263" height="870" alt="image" src="https://github.com/user-attachments/assets/39bf0536-e97a-4432-b0b5-b78b19488b0d" />
@@ -34,7 +34,7 @@ This design demonstrates at least one example of each required item:
 4. The anonymized features (V1-V28) from the Kaggle source are treated as transaction-level attributes for risk scoring.
 
 ---
-## 5. Final Normalized Relational Schema (Part C)
+## 5. Final Normalized Relational Schema
 The following schema represents the translation of the E/R diagram into a relational model. All relations have been verified to be in Boyce-Codd Normal Form (BCNF).
 
 - **User** (**user_id**, first_name, last_name, email, phone_number)
