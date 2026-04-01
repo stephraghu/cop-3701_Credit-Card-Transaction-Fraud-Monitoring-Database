@@ -1,7 +1,8 @@
 # Database Conceptual Design
 
 ## 1. Entity-Relationship Diagram
-<img width="1263" height="870" alt="image" src="https://github.com/user-attachments/assets/39bf0536-e97a-4432-b0b5-b78b19488b0d" />
+<img width="1217" height="1246" alt="image" src="https://github.com/user-attachments/assets/11aee0f8-591a-4d0b-8efd-c0cbba08318d" />
+
 
 ## 2. Complexity Requirements Checklist
 This design demonstrates at least one example of each required item:
