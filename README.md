@@ -21,6 +21,9 @@ Financial services, specifically focused on credit card lifecycle management and
 - **Cardholders**: Manage their `Credit_Card` profiles and review their `Transaction` history.
 - **Bank Administrators**: Oversee `User` account security and system-wide configurations.
 
+## Final ER Diagram
+<img width="608" height="900" alt="image" src="https://github.com/user-attachments/assets/bd67d257-b11f-4aa8-822f-aa012739b816" />
+
 ## Data Source
 The transaction data is sourced from the **Kaggle Credit Card Fraud dataset**:  
 https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud  
