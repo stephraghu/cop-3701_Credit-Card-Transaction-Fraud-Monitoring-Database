@@ -12,9 +12,9 @@ import pandas as pd
 # --- DB CONFIG ---
 ## Change these to match your Oracle instance (if needed)
 LIB_DIR = "instantclient_23_0"
-DB_USER = "SRAGHUNANDAN8117_SCHEMA_QWBJH"
-DB_PASS = "JFNP11!GGyAHO60A2W34M57W83YBAZ"
-DB_DSN  = "db.freesql.com:1521/23ai_34ui2"
+DB_USER = "PLACEHOLDER"
+DB_PASS = "PLACEHOLDER"
+DB_DSN  = "PLACEHOLDER"
 
 # --- ORACLE CLIENT INIT ---
 @st.cache_resource
